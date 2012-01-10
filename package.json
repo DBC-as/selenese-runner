@@ -1,0 +1,12 @@
+{
+  "name": "selenese-runner",
+  "version": "0.0.1",
+  "dependencies": {
+    "request": "*",
+    "soda": "*",
+    "jasmine-node": "*"
+  },
+  "scripts": {
+    "test": "xvfb-run ./start-selenium.sh && node_modules/.bin/jasmine-node tests" 
+  }
+}
