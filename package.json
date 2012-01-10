@@ -2,8 +2,8 @@
   "name": "selenese-runner",
   "version": "0.0.1",
   "dependencies": {
-    "request": "*",
     "soda": "*",
+    "request": "*",
     "jasmine-node": "*"
   },
   "scripts": {
