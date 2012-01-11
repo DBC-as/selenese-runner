@@ -1,4 +1,4 @@
 # comment
      # comment
 sample.suite artesis #comment
-sample2.suite bibdk
+sample2.suite old-bibdk
