@@ -7,6 +7,6 @@
     "jasmine-node": "*"
   },
   "scripts": {
-    "test": "xvfb-run ./start-selenium.sh & sleep 3; NODE_PATH=lib node_modules/.bin/jasmine-node tests" 
+    "test": "NODE_PATH=lib node_modules/.bin/jasmine-node tests" 
   }
 }
