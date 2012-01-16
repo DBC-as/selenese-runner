@@ -21,4 +21,4 @@
 # Changelog /tags
 
 - v0.0.2
-- v0.0.1 initial working version
+- v0.0.1 initial version, read and execute testsuitlist, travis-support
