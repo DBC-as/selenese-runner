@@ -1,4 +1,2 @@
-# comment
-     # comment
-sample1.suite #comment
 sampleerror.suite 
+sample2.suite
