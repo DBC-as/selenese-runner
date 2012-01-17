@@ -1,3 +1,4 @@
 node_modules/
 selenium-server-standalone-2.15.0.jar
 selenium-server.log
+*.swp
