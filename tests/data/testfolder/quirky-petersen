@@ -29,7 +29,7 @@
 <tr>
 	<td>type</td>
 	<td>id=forfatter</td>
-	<td>petersen</td>
+	<td>AUTHOR_PETERSEN</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
