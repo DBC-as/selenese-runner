@@ -7,6 +7,6 @@
     "jasmine-node": "*"
   },
   "scripts": {
-    "test": "NODE_PATH=lib node_modules/.bin/jasmine-node tests" 
+    "test": "./test.sh" 
   }
 }
