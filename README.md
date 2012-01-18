@@ -38,5 +38,6 @@ run directly with node.js, - just make sure `seleneserunner.js` is in `NODE_PATH
 
 # Changelog /tags
 
+- v0.0.3
 - v0.0.2 single browser session, reporting, exit code
 - v0.0.1 initial version, read and execute testsuitlist, travis-support
