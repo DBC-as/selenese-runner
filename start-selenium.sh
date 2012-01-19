@@ -7,7 +7,7 @@ echo 'exit' | nc localhost 4444 && exit
 test -f $SELENIUM_JAR || wget http://selenium.googlecode.com/files/$SELENIUM_JAR || exit -1
 
 # start selenium headless
-xvfb-run java -jar $SELENIUM_JAR >& selenium-server.log &
+xvfb-run java -jar $SELENIUM_JAR > selenium-server.log 2>&1 &
 
 # wait for startup
 until grep "Started org.openqa.jetty.jetty.Server" selenium-server.log; do
