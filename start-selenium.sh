@@ -15,5 +15,5 @@ until grep "Started org.openqa.jetty.jetty.Server" selenium-server.log; do
     sleep 1
 done
 
-# log to stdout
-tail -f selenium-server.log &
+## log to stdout
+#tail -f selenium-server.log &
