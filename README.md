@@ -28,6 +28,8 @@ run directly with node.js, - just make sure `seleneserunner.js` is in `NODE_PATH
 - callback from test-results
 - simple reporting supported with exit-code
 - test / integration-server / travis support
+- additional commands (*command*, *target*, *value*)
+    - (`restartBrowser`, no target, no value)
 
 # Tasks
 
