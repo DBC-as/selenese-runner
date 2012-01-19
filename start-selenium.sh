@@ -1,7 +1,7 @@
 SELENIUM_JAR=selenium-server-standalone-2.15.0.jar
 
 # exit if selenium is already running
-nc localhost 4444 < /dev/null && exit
+echo 'exit' | nc localhost 4444 && exit
 
 # download selenium if needed
 test -f $SELENIUM_JAR || wget http://selenium.googlecode.com/files/$SELENIUM_JAR || exit -1
