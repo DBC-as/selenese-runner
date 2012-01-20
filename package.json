@@ -1,6 +1,6 @@
 {
   "name": "selenese-runner",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "author": "Rasmus Jensen, DBC-as",
   "homepage": "http://github.com/DBC-as/selenese-runner",
   "description": "Automated execution of selenese scripts (tests made in selenium-ide)",
@@ -10,7 +10,7 @@
     "jasmine-node": "*"
   },
   "engines": ["node"],
-  "main": "lib/seleneserunner",
+  "main": "lib/selenese-runner.js",
   "scripts": {
     "test": "./test.sh" 
   }
