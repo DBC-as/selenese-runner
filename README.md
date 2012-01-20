@@ -6,14 +6,14 @@
 
 Sample config:
 
-    selenese = require('seleneserunner');
+    selenese = require('selenese-runner');
     selenese.runWithConfig( {
         suitelist: 'https://raw.github.com/DBC-as/selenese-runner/master/tests/data/testsuites.txt',
         url: 'http://bibliotek.dk', 
         replace: {AUTHOR_PETERSEN: 'petersen'},
         callback: selenese.simpleReporter });
 
-run directly with node.js, - just make sure `seleneserunner.js` is in `NODE_PATH`.
+run directly with node.js, - just make sure `selenese-runner.js` is in `NODE_PATH`.
 
 - `suitelist` is a list of urls for selenium-ide testsuites.
 - `url` is the url of the site to test (overrides testsuites)
@@ -40,6 +40,6 @@ run directly with node.js, - just make sure `seleneserunner.js` is in `NODE_PATH
 
 # Changelog /tags
 
-- v0.0.3
+- v0.0.3 mew selenese-command: `restartBrowser`, publish as npm, saucelabs support, bugfix with test-path relative to suite instead of suitelist, junit-xml-output-support
 - v0.0.2 single browser session, reporting, exit code
 - v0.0.1 initial version, read and execute testsuitlist, travis-support

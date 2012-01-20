@@ -9,7 +9,7 @@
     "request": "*",
     "jasmine-node": "*"
   },
-  "engines": ["node": "*"],
+  "engines": ["node"],
   "main": "lib/seleneserunner",
   "scripts": {
     "test": "./test.sh" 
