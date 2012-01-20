@@ -11,7 +11,7 @@ Sample config:
         suitelist: 'https://raw.github.com/DBC-as/selenese-runner/master/tests/data/testsuites.txt',
         url: 'http://bibliotek.dk', 
         replace: {AUTHOR_PETERSEN: 'petersen'},
-        callback: selenese.simpleReporter });
+        callback: selenese.junitReporter('filename.xml')});
 
 run directly with node.js, - just make sure `selenese-runner.js` is in `NODE_PATH`.
 

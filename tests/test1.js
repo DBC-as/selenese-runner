@@ -3,5 +3,5 @@ require('selenese-runner').runWithConfig( {
     target: 'old-bibdk',
     url: 'http://bibliotek.dk', 
     replace: {AUTHOR_PETERSEN: 'petersen'},
-    callback: require('selenese-runner').simpleReporter
+    callback: require('selenese-runner').junitReporter('tests/testresults1.xml')
     });
