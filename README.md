@@ -40,6 +40,7 @@ run directly with node.js, - just make sure `selenese-runner.js` is in `NODE_PAT
 
 # Changelog /tags
 
+- v0.0.6 refactoring, doc, bugfix: parallel run of browsers
 - v0.0.5 published via npm
 - v0.0.4 version bump due to packaging error
 - v0.0.3 new selenese-command: `restartBrowser`, saucelabs support, bugfix with test-path relative to suite instead of suitelist, junit-xml-output-support
