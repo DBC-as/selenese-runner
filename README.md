@@ -44,6 +44,7 @@ run directly with node.js, - just make sure `selenese-runner.js` is in `NODE_PAT
 
 # Changelog /tags
 
+- v0.0.8 error message improvements
 - v0.0.7 bugfix
 - v0.0.6 refactoring, doc, bugfix: parallel run of browsers
 - v0.0.5 published via npm
