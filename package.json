@@ -6,10 +6,9 @@
   "description": "Automated execution of selenese scripts (tests made in selenium-ide)",
   "dependencies": {
     "soda": "*",
-    "request": "*",
-    "jasmine-node": "*"
+    "request": "*"
   },
-  "engines": ["node"],
+  "engines": {"node": "*"},
   "main": "lib/selenese-runner.js",
   "scripts": {
     "test": "./test.sh" 
