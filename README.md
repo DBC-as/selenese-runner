@@ -40,9 +40,11 @@ run directly with node.js, - just make sure `selenese-runner.js` is in `NODE_PAT
 - better selenese-escape-code
 - streamline unit tests
 - more info in junit-errorreporting.
+- timing information in tests
 
 # Changelog /tags
 
+- v0.0.7 bugfix
 - v0.0.6 refactoring, doc, bugfix: parallel run of browsers
 - v0.0.5 published via npm
 - v0.0.4 version bump due to packaging error

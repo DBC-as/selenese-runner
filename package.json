@@ -1,6 +1,6 @@
 {
   "name": "selenese-runner",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "author": "Rasmus Jensen, DBC-as",
   "homepage": "http://github.com/DBC-as/selenese-runner",
   "description": "Automated execution of selenese scripts (tests made in selenium-ide)",
