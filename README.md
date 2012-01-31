@@ -33,10 +33,13 @@ run directly with node.js, - just make sure `selenese-runner.js` is in `NODE_PAT
 
 # Tasks
 
-- refactor, code and add more documentation
+- refactor code and add more documentation
+    - cleanup dependencies
+    - better logging with parallel tests
+- ignore errors in before/after/beforeEach/afterEach 
+- better selenese-escape-code
 - streamline unit tests
-- command line parameters
-- autokill possibly existing selenium-unit-test-server
+- more info in junit-errorreporting.
 
 # Changelog /tags
 
