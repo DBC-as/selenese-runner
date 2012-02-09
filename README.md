@@ -36,6 +36,7 @@ run directly with node.js, - just make sure `selenese-runner.js` is in `NODE_PAT
 - refactor code and add more documentation
     - cleanup dependencies
     - better logging with parallel tests
+- return error when downloaded suite or testcase is not a file from selenium-ide
 - ignore errors in before/after/beforeEach/afterEach 
 - better selenese-escape-code
 - streamline unit tests
