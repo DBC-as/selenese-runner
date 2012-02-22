@@ -1,3 +1,3 @@
 sampleerror.suite 
-wrongsuite.suite
+testsuites-error.txt
 sample2.suite
