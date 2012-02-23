@@ -45,7 +45,8 @@ run directly with node.js, - just make sure `selenese-runner.js` is in `NODE_PAT
 
 # Changelog /tags
 
-- v0.0.9 internal documentation, error-message when downloaded suite is not a selenium-ide suite, support for local testcases (instead of only loading them via http(s)).
+- v0.0.10 internal documentation, support for local testcases (instead of only loading them via http(s)).
+- v0.0.9 error-message when downloaded suite is not a selenium-ide suite
 - v0.0.8 error message improvements
 - v0.0.7 bugfix
 - v0.0.6 refactoring, doc, bugfix: parallel run of browsers
