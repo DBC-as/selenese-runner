@@ -6,6 +6,7 @@
   "description": "Automated execution of selenese scripts (tests made in selenium-ide)",
   "dependencies": {
     "soda": "*",
+    "async": "*",
     "request": "*"
   },
   "engines": {"node": "*"},
