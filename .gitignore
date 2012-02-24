@@ -4,5 +4,3 @@ selenium-server.log
 *.swp
 tests/testresult.xml
 tests/testresult*.xml
-docs/selenese-runner.html
-docs/docco.css
