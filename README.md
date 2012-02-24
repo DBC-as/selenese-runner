@@ -4,6 +4,19 @@
 
 # Documentation
 
+# CURRENTLY BEING EDITED...
+## Installation
+
+Stable version can be installed by running `npm install selenese-runner`
+
+For the development version 
+
+- checkout this repository
+- install dependencies using `npm update`
+
+
+## Config
+
 Sample config:
 
     selenese = require('selenese-runner');
