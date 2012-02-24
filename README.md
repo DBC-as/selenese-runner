@@ -4,7 +4,6 @@
 
 # Documentation
 
-# CURRENTLY BEING EDITED...
 ## Installation
 
 Stable version can be installed by running `npm install selenese-runner`
@@ -12,8 +11,8 @@ Stable version can be installed by running `npm install selenese-runner`
 For the development version 
 
 - checkout this repository
-- install dependencies using `npm update`
-
+- fetch dependencies using `npm update`
+- test with `npm test`
 
 ## Config
 
@@ -26,12 +25,15 @@ Sample config:
         replace: {AUTHOR_PETERSEN: 'petersen'},
         callback: selenese.junitReporter('filename.xml')});
 
-run directly with node.js, - just make sure `selenese-runner.js` is in `NODE_PATH`.
-
 - `suitelist` is a list of urls for selenium-ide testsuites.
 - `url` is the url of the site to test (overrides testsuites)
 - `replace` includes values to replace within selenium tests. This is useful for for example usernames and passwords
 - `callback` is the reporting function
+
+## Run
+
+Just run `node $CONFIG_FILE` (or `NODE_PATH=lib node $CONFIG_FILE` if using the development version where the script is placed in the `lib` directory).
+The config can also be passed to the commandline with `-e ...` instead of filename.
 
 
 # Features
