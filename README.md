@@ -60,6 +60,7 @@ The config can also be passed to the commandline with `-e ...` instead of filena
 
 # Changelog /tags
 
+- v0.0.11 better errorreporting, and unescape &quot;
 - v0.0.10 internal documentation, support for local testcases (instead of only loading them via http(s)).
 - v0.0.9 error-message when downloaded suite is not a selenium-ide suite
 - v0.0.8 error message improvements
