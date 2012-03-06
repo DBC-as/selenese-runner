@@ -30,6 +30,18 @@ Sample config:
 - `replace` includes values to replace within selenium tests. This is useful for for example usernames and passwords
 - `callback` is the reporting function
 
+Or alternative:
+
+    require('selenese-runner').easyDispatch({
+        suitelist: "https://raw.github.com/DBC-as/selenese-tests/master/bibliotekdk.lst",
+        url: "http://bibliotek.dk", 
+        setup: [{host: "localhost", port: 4444, browser: "iexplore"},
+                {host: "localhost", port: 4444, browser: "firefox"}],
+        replace: {"USER_LOGIN": "some@login.email", "USER_PASSWORD": "*****
+    });
+
+which will spawn a new test-run for each setup (or which ever property that are lists), and automatically create junitReporter callbacks with filenames that matches the config.
+
 ## Run
 
 Just run `node $CONFIG_FILE` (or `NODE_PATH=lib node $CONFIG_FILE` if using the development version where the script is placed in the `lib` directory).
@@ -60,6 +72,7 @@ The config can also be passed to the commandline with `-e ...` instead of filena
 
 # Changelog /tags
 
+- v0.0.12 easy dispatch to multiple servers, testing, better output
 - v0.0.11 better errorreporting, and unescape &quot;
 - v0.0.10 internal documentation, support for local testcases (instead of only loading them via http(s)).
 - v0.0.9 error-message when downloaded suite is not a selenium-ide suite
