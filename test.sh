@@ -1,4 +1,5 @@
 export NODE_PATH=lib
+node tests/internaltest.js || exit 1
 node tests/test1.js
 test $? -eq 0 || exit 1
 node tests/test2.js 
