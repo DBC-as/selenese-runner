@@ -1,4 +1,4 @@
-SELENIUM_JAR=selenium-server-standalone-2.15.0.jar
+SELENIUM_JAR=selenium-server-standalone-2.20.0.jar
 
 # exit if selenium is already running
 echo 'exit' | nc localhost 4444 && exit
