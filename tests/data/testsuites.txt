@@ -1,4 +1,0 @@
-# comment
-     # comment
-sample1.suite #comment
-sample2.suite 
